@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+python-dotenv
+langchain_groq
+scholarly
+autogen
+transformers
+requests
+xmltodict
+asyncio
