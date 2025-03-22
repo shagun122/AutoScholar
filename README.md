@@ -1,7 +1,7 @@
 # 📝 AutoScholar
 
 ## **🔍 Overview**
-Research Paper Analyzer is an AI-powered web application that fetches and analyzes research papers from **arXiv**. It uses **LLM-based AI agents** to extract summaries, research trends, citations, advantages/disadvantages, and possible code implementations.
+Research papers are a valuable source of knowledge, but analyzing multiple papers manually is time-consuming. This project leverages AutoGen-based multiple AI agents to fetch, process, and summarize research papers from arXiv in parallel, reducing the effort required to extract key insights.
 
 ## **⚙️ Features**
 - 📄 **Fetch research papers** from **arXiv**.
@@ -12,11 +12,12 @@ Research Paper Analyzer is an AI-powered web application that fetches and analyz
 - 💻 **Suggest code implementations** based on the research.
 
 ## **🛠️ Tech Stack**
-- 🐍 Python
-- 🤖 LangChain (Groq LLM)
-- 🔍 arXiv API
-- 🖥️ Streamlit (UI)
-- 🏗️ AutoGen (AI Agents)
+- Python – Core programming language.
+- AutoGen – Multi-agent AI framework for collaboration.
+- arXiv API – Fetching research papers.
+- LangChain – AI processing and summarization.
+- asyncio – Ensuring parallel execution.
+- Streamlit – User-friendly UI for visualization.
 
 ## **🚀 Installation & Setup**
 ### **1️⃣ Clone the Repository**
