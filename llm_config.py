@@ -1,12 +1,11 @@
 import os
 from dotenv import load_dotenv
-from langchain_groq import ChatGroq
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 load_dotenv()
 
 def get_llm():
-    return ChatGroq(
-        model="llama3-70b-8192",
-        api_key=os.getenv("GROQ_API_KEY")
+    return ChatGoogleGenerativeAI(
+        model="gemini-2.0-flash",
+        google_api_key=os.getenv("GEMINI_API_KEY")
     )
-
